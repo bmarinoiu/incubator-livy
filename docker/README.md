@@ -23,3 +23,5 @@ Then go to http://localhost:8998/
 
 # TODO
 - Replace manual copy and build by https://github.com/spotify/dockerfile-maven to integrate the docker image build with the Maven lifecycle
+- Automate base image build (spark base image)
+- Add a dependencies layer
