@@ -1,4 +1,4 @@
-FROM spark:1.6.2-talend-5
+FROM registry.datapwn.com/talend/spark:1.6.2-talend-5
 MAINTAINER amarouni@talend.com
 
 ENV LIVY_VERSION 0.5.0-incubating-SNAPSHOT
