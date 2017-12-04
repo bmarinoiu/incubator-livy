@@ -7,7 +7,7 @@ Copy the generated artifact to the docker context directory :
 ```
 cp assembly/target/livy-0.5.0-incubating-SNAPSHOT-bin.tar.gz docker/
 ```
-Build the docker image :
+Go to the *docker/* folder and build the docker image:
 ```
 docker build -t talend/livy:0.5.0-SNAPSHOT .
 ```
