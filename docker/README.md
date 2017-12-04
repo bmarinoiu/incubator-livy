@@ -9,11 +9,11 @@ cp assembly/target/livy-0.5.0-incubating-SNAPSHOT-bin.tar.gz docker/
 ```
 Build the docker image :
 ```
-docker build -t livy:0.5.0-SNAPSHOT .
+docker build -t talend/livy:0.5.0-SNAPSHOT .
 ```
 Start Livy container  :
 ```
-docker run -p 8998:8998 -d livy:0.5.0-SNAPSHOT
+docker run -p 8998:8998 -d talend/livy:0.5.0-SNAPSHOT
 ```
 Run a smoke test :
 ```
