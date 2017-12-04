@@ -19,7 +19,7 @@ Run a smoke test :
 ```
 curl -X POST --data '{"file": "/opt/spark/examples/spark-pi-example.jar", "className": "org.apache.spark.examples.SparkPi"}' -H "Content-Type: application/json" localhost:8998/batches
 ```
-The go to http://localhost:8998/
+Then go to http://localhost:8998/
 
 # TODO
 - Replace manual copy and build by https://github.com/spotify/dockerfile-maven to integrate the docker image build with the Maven lifecycle
